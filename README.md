@@ -1,8 +1,10 @@
 # mpv-image-viewer
 Use mpv as an image viewer.
 
-A set of keybinds and configuration to use mpv as an image viewer.
+Add the settings in `mpv.conf` to your `mpv.conf`
 
-I have included a .desktop file to start mpv with --profile=image. Put this file in ~/.local/share/applications, and then associate image files with it inside your file manager.
+Put `image-autoload.lua` and `image-input.conf` in `~/.config/mpv`
 
-You need autoload.lua in `~/.config/mpv` from here (https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua) to automatically create playlists from images in the same directory.
+Except for added image file extensions, `image-autoload.lua` is exactly the same as https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua 
+
+I have included a .desktop file to start mpv with --profile=image. Put this file in `~/.local/share/applications`, and then associate image files with it inside your file manager.
