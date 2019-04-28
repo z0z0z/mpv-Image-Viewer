@@ -1,5 +1,5 @@
 # mpv-image-viewer
-Config to use mpv as an image viewer.
+Use mpv as an image viewer.
 
 A set of keybinds and configuration to use mpv as an image viewer.
 
